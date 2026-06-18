@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>お問い合わせありがとうございます | 株式会社RED</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #3a3434;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .thanks {
+    text-align: center;
+    max-width: 520px;
+    animation: fadeIn 1.6s ease both;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .thanks-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.82rem;
+    letter-spacing: 0.32em;
+    color: #b8332a;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+  }
+
+  .thanks-mark {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    letter-spacing: 0.16em;
+    color: #3a3434;
+    margin-bottom: 2.75rem;
+  }
+
+  .thanks-title {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 400;
+    font-size: clamp(1.15rem, 3vw, 1.4rem);
+    line-height: 2.1;
+    letter-spacing: 0.04em;
+    color: #3a3434;
+    margin-bottom: 2.25rem;
+  }
+
+  .thanks-divider {
+    width: 40px;
+    height: 1px;
+    background: #e3cfcc;
+    margin: 0 auto 2.25rem;
+  }
+
+  .thanks-body {
+    font-size: 0.85rem;
+    line-height: 2.3;
+    color: #8a7a7a;
+    font-weight: 300;
+    margin-bottom: 3.5rem;
+  }
+
+  .thanks-link {
+    display: inline-block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.18em;
+    color: #3a3434;
+    text-decoration: none;
+    border: 1px solid #ddd2d2;
+    padding: 0.85rem 2.4rem;
+    transition: background 0.4s, color 0.4s, border-color 0.4s;
+  }
+  .thanks-link:hover {
+    background: #3a3434;
+    color: #fff;
+    border-color: #3a3434;
+  }
+
+  .thanks-footer {
+    position: fixed;
+    bottom: 2.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    color: #c9bdbd;
+  }
+
+  @media (max-width: 600px) {
+    .thanks-footer { font-size: 0.72rem; bottom: 1.75rem; }
+  }
+</style>
+</head>
+<body>
+
+  <main class="thanks">
+    <p class="thanks-label">Thank you</p>
+    <h1 class="thanks-mark">RED</h1>
+
+    <p class="thanks-title">
+      お問い合わせ、<br/>
+      ありがとうございました。
+    </p>
+
+    <div class="thanks-divider"></div>
+
+    <p class="thanks-body">
+      担当者よりご連絡いたしますので、<br/>
+      今しばらくお待ちください。
+    </p>
+
+    <a href="https://red-biz.jp/" class="thanks-link">Back to Home</a>
+  </main>
+
+  <p class="thanks-footer">Connections become opportunities.</p>
+
+</body>
+</html>
